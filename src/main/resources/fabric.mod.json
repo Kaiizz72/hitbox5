@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "biggerplayerhitbox",
+  "version": "1.0.0",
+  "name": "Bigger Player Hitbox",
+  "description": "Tăng hitbox người chơi 5% để PvP dễ hơn",
+  "authors": [
+    "Bạn"
+  ],
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "biggerplayerhitbox.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1"
+  },
+  "license": "MIT"
+}
