@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "triggerbot",
+  "version": "1.0.0",
+  "name": "Triggerbot (hold-to-attack)",
+  "description": "Client-side triggerbot: automatically attacks the entity under crosshair while holding left mouse button.",
+  "authors": ["You"],
+  "entrypoints": {
+    "client": ["com.example.triggerbot.TriggerbotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*"
+  }
+}
